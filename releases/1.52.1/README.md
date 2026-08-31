@@ -12,7 +12,7 @@
 | `@backstage/frontend-app-api` | 0.16.4 | 0.16.5 | Patch |
 | `@backstage/plugin-kubernetes-react` | 0.5.20 | 0.5.21 | Patch |
 
-## Compared to 1.51.2 (previous minor release)
+## Compared to 1.51.3 (previous minor release)
 
 1 added, 0 removed, 185 upgraded, 24 unchanged.
 
@@ -26,7 +26,7 @@
 
 ### Version bumps
 
-| Package | 1.51.2 | 1.52.1 | Type |
+| Package | 1.51.3 | 1.52.1 | Type |
 | --- | --- | --- | --- |
 | `@backstage/app-defaults` | 1.7.8 | 1.7.9 | Patch |
 | `@backstage/backend-app-api` | 1.7.0 | 1.7.1 | Patch |
@@ -100,7 +100,7 @@
 | `@backstage/plugin-auth-react` | 0.1.27 | 0.1.28 | Patch |
 | `@backstage/plugin-bitbucket-cloud-common` | 0.3.10 | 0.3.11 | Patch |
 | `@backstage/plugin-catalog` | 2.0.5 | 2.0.6 | Patch |
-| `@backstage/plugin-catalog-backend` | 3.7.1 | 3.8.0 | Minor |
+| `@backstage/plugin-catalog-backend` | 3.7.2 | 3.8.0 | Minor |
 | `@backstage/plugin-catalog-backend-module-ai-model` | 0.1.0 | 0.1.1 | Patch |
 | `@backstage/plugin-catalog-backend-module-aws` | 0.4.23 | 0.4.24 | Patch |
 | `@backstage/plugin-catalog-backend-module-azure` | 0.3.17 | 0.3.18 | Patch |

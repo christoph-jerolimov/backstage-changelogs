@@ -1,6 +1,6 @@
 # Backstage Release 1.51.0 changelog
 
-Changes between 1.50.4 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchanged packages.
+Changes between 1.50.5 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchanged packages.
 
 ## Summary
 
@@ -23,13 +23,13 @@ Changes between 1.50.4 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchan
   - [`@backstage/frontend-plugin-api` (0.16.2 → 0.17.0)](#backstagefrontend-plugin-api-0162--0170)
   - [`@backstage/frontend-test-utils` (0.5.2 → 0.6.0)](#backstagefrontend-test-utils-052--060)
   - [`@backstage/plugin-auth-backend` (0.28.0 → 0.29.0)](#backstageplugin-auth-backend-0280--0290)
-  - [`@backstage/plugin-catalog-backend` (3.6.1 → 3.7.0)](#backstageplugin-catalog-backend-361--370)
+  - [`@backstage/plugin-catalog-backend` (3.6.2 → 3.7.0)](#backstageplugin-catalog-backend-362--370)
   - [`@backstage/plugin-catalog-backend-module-msgraph` (0.9.2 → 0.10.0)](#backstageplugin-catalog-backend-module-msgraph-092--0100)
   - [`@backstage/plugin-permission-node` (0.10.12 → 0.11.0)](#backstageplugin-permission-node-01012--0110)
   - [`@backstage/ui` (0.14.3 → 0.15.0)](#backstageui-0143--0150)
 - [Major version bumps](#major-version-bumps)
   - [`@backstage/plugin-catalog-react` (2.1.4 → 3.0.0)](#backstageplugin-catalog-react-214--300)
-  - [`@backstage/plugin-scaffolder-backend` (3.4.0 → 4.0.0)](#backstageplugin-scaffolder-backend-340--400)
+  - [`@backstage/plugin-scaffolder-backend` (3.4.1 → 4.0.0)](#backstageplugin-scaffolder-backend-341--400)
   - [`@backstage/plugin-scaffolder-react` (1.20.1 → 2.0.0)](#backstageplugin-scaffolder-react-1201--200)
 - [0.x minor version bumps](#0x-minor-version-bumps)
   - [`@backstage/eslint-plugin` (0.2.3 → 0.3.0)](#backstageeslint-plugin-023--030)
@@ -108,10 +108,10 @@ Changes between 1.50.4 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchan
   - [`@backstage/backend-app-api` (1.6.1 → 1.7.0)](#backstagebackend-app-api-161--170)
   - [`@backstage/catalog-model` (1.8.0 → 1.9.0)](#backstagecatalog-model-180--190)
   - [`@backstage/plugin-scaffolder` (1.36.2 → 1.37.0)](#backstageplugin-scaffolder-1362--1370)
-  - [`@backstage/plugin-scaffolder-common` (2.1.0 → 2.2.0)](#backstageplugin-scaffolder-common-210--220)
+  - [`@backstage/plugin-scaffolder-common` (2.1.1 → 2.2.0)](#backstageplugin-scaffolder-common-211--220)
   - [`@backstage/plugin-techdocs-backend` (2.1.7 → 2.2.0)](#backstageplugin-techdocs-backend-217--220)
-  - [`@backstage/plugin-techdocs-node` (1.14.5 → 1.15.0)](#backstageplugin-techdocs-node-1145--1150)
-  - [`@techdocs/cli` (1.10.7 → 1.11.0)](#techdocscli-1107--1110)
+  - [`@backstage/plugin-techdocs-node` (1.14.6 → 1.15.0)](#backstageplugin-techdocs-node-1146--1150)
+  - [`@techdocs/cli` (1.10.8 → 1.11.0)](#techdocscli-1108--1110)
 - [Other patch version bumps](#other-patch-version-bumps)
   - [`@backstage/backend-plugin-api` (1.9.0 → 1.9.1)](#backstagebackend-plugin-api-190--191)
   - [`@backstage/backend-test-utils` (1.11.2 → 1.11.3)](#backstagebackend-test-utils-1112--1113)
@@ -259,7 +259,7 @@ Changes between 1.50.4 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchan
 - [`27f24a9`](https://github.com/backstage/backstage/commit/27f24a9): Refresh token usage now verifies that the user's catalog entity still exists before issuing a new access token. If the user has been removed from the catalog, the refresh is rejected and the session is revoked. Transient catalog errors reject the refresh but preserve the session for retry. This check can be disabled by setting `auth.experimentalRefreshToken.dangerouslyDisableCatalogPresenceCheck` to `true`.
 - [`4f62755`](https://github.com/backstage/backstage/commit/4f62755): Improved the OAuth consent dialog for MCP authorization by showing more client details, including the client metadata host for CIMD clients, the metadata URL, callback URL, and requested scopes.
 
-### `@backstage/plugin-catalog-backend` (3.6.1 → [3.7.0](../../changelogs/@backstage/plugin-catalog-backend.md#370))
+### `@backstage/plugin-catalog-backend` (3.6.2 → [3.7.0](../../changelogs/@backstage/plugin-catalog-backend.md#370))
 
 #### 3.7.0
 
@@ -479,7 +479,7 @@ Changes between 1.50.4 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchan
 - [`cad156e`](https://github.com/backstage/backstage/commit/cad156e): Replaced old config schema values from existing extensions and blueprints.
 - [`085133f`](https://github.com/backstage/backstage/commit/085133f): The `zod` dependency has been bumped from `^3.25.76 || ^4.0.0` to `^4.0.0`, since `configSchema` requires the full Zod v4 package for JSON Schema support.
 
-### `@backstage/plugin-scaffolder-backend` (3.4.0 → [4.0.0](../../changelogs/@backstage/plugin-scaffolder-backend.md#400))
+### `@backstage/plugin-scaffolder-backend` (3.4.1 → [4.0.0](../../changelogs/@backstage/plugin-scaffolder-backend.md#400))
 
 #### 4.0.0
 
@@ -1263,7 +1263,7 @@ Changes between 1.50.4 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchan
   `spec.formDecorators` field on a template, falling back to the deprecated
   `spec.EXPERIMENTAL_formDecorators` for templates that have not been migrated.
 
-### `@backstage/plugin-scaffolder-common` (2.1.0 → [2.2.0](../../changelogs/@backstage/plugin-scaffolder-common.md#220))
+### `@backstage/plugin-scaffolder-common` (2.1.1 → [2.2.0](../../changelogs/@backstage/plugin-scaffolder-common.md#220))
 
 #### 2.2.0
 
@@ -1281,7 +1281,7 @@ Changes between 1.50.4 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchan
 
 - [`5ef8d16`](https://github.com/backstage/backstage/commit/5ef8d16): Add support for disabling external font downloads via app-config option `techdocs.generator.mkdocs.disableExternalFonts`, useful for air-gapped Backstage instances.
 
-### `@backstage/plugin-techdocs-node` (1.14.5 → [1.15.0](../../changelogs/@backstage/plugin-techdocs-node.md#1150))
+### `@backstage/plugin-techdocs-node` (1.14.6 → [1.15.0](../../changelogs/@backstage/plugin-techdocs-node.md#1150))
 
 #### 1.15.0
 
@@ -1293,7 +1293,7 @@ Changes between 1.50.4 and 1.51.0 — 2 added, 0 removed, 198 upgraded, 9 unchan
 
 - [`6ce8462`](https://github.com/backstage/backstage/commit/6ce8462): Fixed bug causing `--legacyCopyReadmeMdToIndexMd` option to fail if docs directory is not present
 
-### `@techdocs/cli` (1.10.7 → [1.11.0](../../changelogs/@techdocs/cli.md#1110))
+### `@techdocs/cli` (1.10.8 → [1.11.0](../../changelogs/@techdocs/cli.md#1110))
 
 #### 1.11.0
 

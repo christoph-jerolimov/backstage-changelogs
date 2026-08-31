@@ -1,6 +1,6 @@
 # Backstage Release 1.52.0 changelog
 
-Changes between 1.51.2 and 1.52.0 — 1 added, 0 removed, 185 upgraded, 24 unchanged packages.
+Changes between 1.51.3 and 1.52.0 — 1 added, 0 removed, 185 upgraded, 24 unchanged packages.
 
 ## Summary
 
@@ -18,7 +18,7 @@ Changes between 1.51.2 and 1.52.0 — 1 added, 0 removed, 185 upgraded, 24 uncha
   - [`@backstage/connections` (new, 0.1.0)](#backstageconnections-new-010)
 - [Breaking changes](#breaking-changes)
   - [`@backstage/plugin-app` (0.4.6 → 0.5.0)](#backstageplugin-app-046--050)
-  - [`@backstage/plugin-catalog-backend` (3.7.1 → 3.8.0)](#backstageplugin-catalog-backend-371--380)
+  - [`@backstage/plugin-catalog-backend` (3.7.2 → 3.8.0)](#backstageplugin-catalog-backend-372--380)
   - [`@backstage/ui` (0.15.0 → 0.16.0)](#backstageui-0150--0160)
 - [0.x minor version bumps](#0x-minor-version-bumps)
   - [`@backstage/plugin-auth-backend-module-oauth2-proxy-provider` (0.2.20 → 0.3.0)](#backstageplugin-auth-backend-module-oauth2-proxy-provider-0220--030)
@@ -113,7 +113,7 @@ Changes between 1.51.2 and 1.52.0 — 1 added, 0 removed, 185 upgraded, 24 uncha
 
 - [`33d03ed`](https://github.com/backstage/backstage/commit/33d03ed): fix: make Toast text content selectable
 
-### `@backstage/plugin-catalog-backend` (3.7.1 → [3.8.0](../../changelogs/@backstage/plugin-catalog-backend.md#380))
+### `@backstage/plugin-catalog-backend` (3.7.2 → [3.8.0](../../changelogs/@backstage/plugin-catalog-backend.md#380))
 
 #### 3.8.0
 

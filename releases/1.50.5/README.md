@@ -1,35 +1,35 @@
-# Backstage Release 1.50.4
+# Backstage Release 1.50.5
 
-## Compared to 1.50.3 (previous patch release)
+## Compared to 1.50.4 (previous patch release)
 
-0 added, 0 removed, 3 upgraded, 204 unchanged.
-
-⚠️ Need extra attention: 1 0.0.x patch.
+0 added, 0 removed, 5 upgraded, 202 unchanged.
 
 ### Version bumps
 
-| Package | 1.50.3 | 1.50.4 | Type |
+| Package | 1.50.4 | 1.50.5 | Type |
 | --- | --- | --- | --- |
-| `@backstage/plugin-catalog-backend-module-unprocessed` | 0.6.10 | 0.6.11 | Patch |
-| `@backstage/plugin-catalog-unprocessed-entities` | 0.2.29 | 0.2.30 | Patch |
-| `@backstage/plugin-catalog-unprocessed-entities-common` | 0.0.14 | 0.0.15 | Patch ⚠️ |
+| `@backstage/plugin-catalog-backend` | 3.6.1 | 3.6.2 | Patch |
+| `@backstage/plugin-scaffolder-backend` | 3.4.0 | 3.4.1 | Patch |
+| `@backstage/plugin-scaffolder-common` | 2.1.0 | 2.1.1 | Patch |
+| `@backstage/plugin-techdocs-node` | 1.14.5 | 1.14.6 | Patch |
+| `@techdocs/cli` | 1.10.7 | 1.10.8 | Patch |
 
 ## Compared to 1.50.0 (first release of this minor)
 
-0 added, 0 removed, 17 upgraded, 190 unchanged.
+0 added, 0 removed, 21 upgraded, 186 unchanged.
 
 ⚠️ Need extra attention: 1 0.0.x patch.
 
 ### Version bumps
 
-| Package | 1.50.0 | 1.50.4 | Type |
+| Package | 1.50.0 | 1.50.5 | Type |
 | --- | --- | --- | --- |
 | `@backstage/cli-module-build` | 0.1.1 | 0.1.2 | Patch |
 | `@backstage/frontend-plugin-api` | 0.16.0 | 0.16.2 | Patch |
 | `@backstage/plugin-app` | 0.4.3 | 0.4.5 | Patch |
 | `@backstage/plugin-app-visualizer` | 0.2.2 | 0.2.3 | Patch |
 | `@backstage/plugin-catalog` | 2.0.2 | 2.0.4 | Patch |
-| `@backstage/plugin-catalog-backend` | 3.6.0 | 3.6.1 | Patch |
+| `@backstage/plugin-catalog-backend` | 3.6.0 | 3.6.2 | Patch |
 | `@backstage/plugin-catalog-backend-module-unprocessed` | 0.6.10 | 0.6.11 | Patch |
 | `@backstage/plugin-catalog-graph` | 0.6.1 | 0.6.3 | Patch |
 | `@backstage/plugin-catalog-react` | 2.1.2 | 2.1.4 | Patch |
@@ -37,10 +37,14 @@
 | `@backstage/plugin-catalog-unprocessed-entities-common` | 0.0.14 | 0.0.15 | Patch ⚠️ |
 | `@backstage/plugin-home` | 0.9.4 | 0.9.5 | Patch |
 | `@backstage/plugin-org` | 0.7.1 | 0.7.3 | Patch |
+| `@backstage/plugin-scaffolder-backend` | 3.4.0 | 3.4.1 | Patch |
+| `@backstage/plugin-scaffolder-common` | 2.1.0 | 2.1.1 | Patch |
 | `@backstage/plugin-search` | 1.7.1 | 1.7.3 | Patch |
 | `@backstage/plugin-search-react` | 1.11.1 | 1.11.3 | Patch |
 | `@backstage/plugin-techdocs` | 1.17.3 | 1.17.5 | Patch |
+| `@backstage/plugin-techdocs-node` | 1.14.5 | 1.14.6 | Patch |
 | `@backstage/ui` | 0.14.0 | 0.14.3 | Patch |
+| `@techdocs/cli` | 1.10.7 | 1.10.8 | Patch |
 
 ## Compared to 1.49.6 (previous minor release)
 
@@ -50,7 +54,7 @@
 
 ### Version bumps
 
-| Package | 1.49.6 | 1.50.4 | Type |
+| Package | 1.49.6 | 1.50.5 | Type |
 | --- | --- | --- | --- |
 | `@backstage/app-defaults` | 1.7.6 | 1.7.7 | Patch |
 | `@backstage/backend-app-api` | 1.6.0 | 1.6.1 | Patch |
@@ -132,7 +136,7 @@
 | `@backstage/plugin-auth-react` | 0.1.25 | 0.1.26 | Patch |
 | `@backstage/plugin-bitbucket-cloud-common` | 0.3.8 | 0.3.9 | Patch |
 | `@backstage/plugin-catalog` | 2.0.1 | 2.0.4 | Patch |
-| `@backstage/plugin-catalog-backend` | 3.5.1 | 3.6.1 | Minor |
+| `@backstage/plugin-catalog-backend` | 3.5.1 | 3.6.2 | Minor |
 | `@backstage/plugin-catalog-backend-module-aws` | 0.4.21 | 0.4.22 | Patch |
 | `@backstage/plugin-catalog-backend-module-azure` | 0.3.15 | 0.3.16 | Patch |
 | `@backstage/plugin-catalog-backend-module-backstage-openapi` | 0.5.12 | 0.5.13 | Patch |
@@ -204,7 +208,7 @@
 | `@backstage/plugin-proxy-backend` | 0.6.11 | 0.6.12 | Patch |
 | `@backstage/plugin-proxy-node` | 0.1.13 | 0.1.14 | Patch |
 | `@backstage/plugin-scaffolder` | 1.36.1 | 1.36.2 | Patch |
-| `@backstage/plugin-scaffolder-backend` | 3.3.1 | 3.4.0 | Minor |
+| `@backstage/plugin-scaffolder-backend` | 3.3.1 | 3.4.1 | Minor |
 | `@backstage/plugin-scaffolder-backend-module-azure` | 0.2.19 | 0.2.20 | Patch |
 | `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud` | 0.3.4 | 0.3.5 | Patch |
 | `@backstage/plugin-scaffolder-backend-module-bitbucket-server` | 0.2.19 | 0.2.20 | Patch |
@@ -219,7 +223,7 @@
 | `@backstage/plugin-scaffolder-backend-module-rails` | 0.5.19 | 0.5.20 | Patch |
 | `@backstage/plugin-scaffolder-backend-module-sentry` | 0.3.2 | 0.3.3 | Patch |
 | `@backstage/plugin-scaffolder-backend-module-yeoman` | 0.4.20 | 0.4.21 | Patch |
-| `@backstage/plugin-scaffolder-common` | 2.0.1 | 2.1.0 | Minor |
+| `@backstage/plugin-scaffolder-common` | 2.0.1 | 2.1.1 | Minor |
 | `@backstage/plugin-scaffolder-node` | 0.13.1 | 0.13.2 | Patch |
 | `@backstage/plugin-scaffolder-node-test-utils` | 0.3.9 | 0.3.10 | Patch |
 | `@backstage/plugin-scaffolder-react` | 1.20.0 | 1.20.1 | Patch |
@@ -242,7 +246,7 @@
 | `@backstage/plugin-techdocs-addons-test-utils` | 2.0.3 | 2.0.4 | Patch |
 | `@backstage/plugin-techdocs-backend` | 2.1.6 | 2.1.7 | Patch |
 | `@backstage/plugin-techdocs-module-addons-contrib` | 1.1.34 | 1.1.35 | Patch |
-| `@backstage/plugin-techdocs-node` | 1.14.4 | 1.14.5 | Patch |
+| `@backstage/plugin-techdocs-node` | 1.14.4 | 1.14.6 | Patch |
 | `@backstage/plugin-techdocs-react` | 1.3.9 | 1.3.10 | Patch |
 | `@backstage/plugin-user-settings` | 0.9.1 | 0.9.2 | Patch |
 | `@backstage/plugin-user-settings-backend` | 0.4.1 | 0.4.2 | Patch |
@@ -250,4 +254,4 @@
 | `@backstage/test-utils` | 1.7.16 | 1.7.17 | Patch |
 | `@backstage/theme` | 0.7.2 | 0.7.3 | Patch |
 | `@backstage/ui` | 0.13.3 | 0.14.3 | Minor ⚠️ |
-| `@techdocs/cli` | 1.10.6 | 1.10.7 | Patch |
+| `@techdocs/cli` | 1.10.6 | 1.10.8 | Patch |

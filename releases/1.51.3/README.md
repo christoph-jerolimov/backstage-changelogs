@@ -1,14 +1,14 @@
-# Backstage Release 1.51.2
+# Backstage Release 1.51.3
 
-## Compared to 1.51.1 (previous patch release)
+## Compared to 1.51.2 (previous patch release)
 
 0 added, 0 removed, 1 upgraded, 208 unchanged.
 
 ### Version bumps
 
-| Package | 1.51.1 | 1.51.2 | Type |
+| Package | 1.51.2 | 1.51.3 | Type |
 | --- | --- | --- | --- |
-| `@backstage/plugin-catalog-backend-module-msgraph` | 0.10.1 | 0.10.2 | Patch |
+| `@backstage/plugin-catalog-backend` | 3.7.1 | 3.7.2 | Patch |
 
 ## Compared to 1.51.0 (first release of this minor)
 
@@ -16,12 +16,12 @@
 
 ### Version bumps
 
-| Package | 1.51.0 | 1.51.2 | Type |
+| Package | 1.51.0 | 1.51.3 | Type |
 | --- | --- | --- | --- |
 | `@backstage/backend-defaults` | 0.17.1 | 0.17.2 | Patch |
 | `@backstage/catalog-client` | 1.15.1 | 1.15.2 | Patch |
 | `@backstage/frontend-plugin-api` | 0.17.0 | 0.17.1 | Patch |
-| `@backstage/plugin-catalog-backend` | 3.7.0 | 3.7.1 | Patch |
+| `@backstage/plugin-catalog-backend` | 3.7.0 | 3.7.2 | Patch |
 | `@backstage/plugin-catalog-backend-module-msgraph` | 0.10.0 | 0.10.2 | Patch |
 
 ## Compared to 1.50.5 (previous minor release)
@@ -32,7 +32,7 @@
 
 ### ⚠️ Major version bumps
 
-| Package | 1.50.5 | 1.51.2 |
+| Package | 1.50.5 | 1.51.3 |
 | --- | --- | --- |
 | `@backstage/plugin-catalog-react` | **2.1.4** | **3.0.0** |
 | `@backstage/plugin-scaffolder-backend` | **3.4.1** | **4.0.0** |
@@ -47,7 +47,7 @@
 
 ### Version bumps
 
-| Package | 1.50.5 | 1.51.2 | Type |
+| Package | 1.50.5 | 1.51.3 | Type |
 | --- | --- | --- | --- |
 | `@backstage/app-defaults` | 1.7.7 | 1.7.8 | Patch |
 | `@backstage/backend-app-api` | 1.6.1 | 1.7.0 | Minor |
@@ -129,7 +129,7 @@
 | `@backstage/plugin-auth-react` | 0.1.26 | 0.1.27 | Patch |
 | `@backstage/plugin-bitbucket-cloud-common` | 0.3.9 | 0.3.10 | Patch |
 | `@backstage/plugin-catalog` | 2.0.4 | 2.0.5 | Patch |
-| `@backstage/plugin-catalog-backend` | 3.6.2 | 3.7.1 | Minor |
+| `@backstage/plugin-catalog-backend` | 3.6.2 | 3.7.2 | Minor |
 | `@backstage/plugin-catalog-backend-module-aws` | 0.4.22 | 0.4.23 | Patch |
 | `@backstage/plugin-catalog-backend-module-azure` | 0.3.16 | 0.3.17 | Patch |
 | `@backstage/plugin-catalog-backend-module-backstage-openapi` | 0.5.13 | 0.5.14 | Patch |

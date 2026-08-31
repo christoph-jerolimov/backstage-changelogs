@@ -1,6 +1,6 @@
 # Backstage Release 1.50.0 changelog
 
-Changes between 1.49.5 and 1.50.0 — 0 added, 0 removed, 197 upgraded, 10 unchanged packages.
+Changes between 1.49.6 and 1.50.0 — 0 added, 0 removed, 197 upgraded, 10 unchanged packages.
 
 ## Summary
 
@@ -24,7 +24,7 @@ Changes between 1.49.5 and 1.50.0 — 0 added, 0 removed, 197 upgraded, 10 uncha
   - [`@backstage/plugin-signals-node` (0.1.29 → 0.2.0)](#backstageplugin-signals-node-0129--020)
   - [`@backstage/ui` (0.13.3 → 0.14.0)](#backstageui-0133--0140)
 - [0.x minor version bumps](#0x-minor-version-bumps)
-  - [`@backstage/backend-defaults` (0.16.0 → 0.17.0)](#backstagebackend-defaults-0160--0170)
+  - [`@backstage/backend-defaults` (0.16.1 → 0.17.0)](#backstagebackend-defaults-0161--0170)
   - [`@backstage/cli-module-actions` (0.0.1 → 0.1.0)](#backstagecli-module-actions-001--010)
   - [`@backstage/plugin-api-docs` (0.13.5 → 0.14.0)](#backstageplugin-api-docs-0135--0140)
   - [`@backstage/plugin-auth-backend-module-auth0-provider` (0.3.1 → 0.4.0)](#backstageplugin-auth-backend-module-auth0-provider-031--040)
@@ -81,9 +81,9 @@ Changes between 1.49.5 and 1.50.0 — 0 added, 0 removed, 197 upgraded, 10 uncha
   - [`@backstage/catalog-model` (1.7.7 → 1.8.0)](#backstagecatalog-model-177--180)
   - [`@backstage/core-app-api` (1.19.6 → 1.20.0)](#backstagecore-app-api-1196--1200)
   - [`@backstage/errors` (1.2.7 → 1.3.0)](#backstageerrors-127--130)
-  - [`@backstage/plugin-catalog-backend` (3.5.0 → 3.6.0)](#backstageplugin-catalog-backend-350--360)
-  - [`@backstage/plugin-scaffolder-backend` (3.3.0 → 3.4.0)](#backstageplugin-scaffolder-backend-330--340)
-  - [`@backstage/plugin-scaffolder-common` (2.0.0 → 2.1.0)](#backstageplugin-scaffolder-common-200--210)
+  - [`@backstage/plugin-catalog-backend` (3.5.1 → 3.6.0)](#backstageplugin-catalog-backend-351--360)
+  - [`@backstage/plugin-scaffolder-backend` (3.3.1 → 3.4.0)](#backstageplugin-scaffolder-backend-331--340)
+  - [`@backstage/plugin-scaffolder-common` (2.0.1 → 2.1.0)](#backstageplugin-scaffolder-common-201--210)
 - [Other patch version bumps](#other-patch-version-bumps)
   - [`@backstage/app-defaults` (1.7.6 → 1.7.7)](#backstageapp-defaults-176--177)
   - [`@backstage/backend-app-api` (1.6.0 → 1.6.1)](#backstagebackend-app-api-160--161)
@@ -331,7 +331,7 @@ Changes between 1.49.5 and 1.50.0 — 0 added, 0 removed, 197 upgraded, 10 uncha
 
 ## 0.x minor version bumps
 
-### `@backstage/backend-defaults` (0.16.0 → [0.17.0](../../changelogs/@backstage/backend-defaults.md#0170))
+### `@backstage/backend-defaults` (0.16.1 → [0.17.0](../../changelogs/@backstage/backend-defaults.md#0170))
 
 #### 0.17.0
 
@@ -858,7 +858,7 @@ Changes between 1.49.5 and 1.50.0 — 0 added, 0 removed, 197 upgraded, 10 uncha
 
 - [`608c1e5`](https://github.com/backstage/backstage/commit/608c1e5): Simplified `assertError` to delegate to `isError` instead of duplicating the same checks.
 
-### `@backstage/plugin-catalog-backend` (3.5.0 → [3.6.0](../../changelogs/@backstage/plugin-catalog-backend.md#360))
+### `@backstage/plugin-catalog-backend` (3.5.1 → [3.6.0](../../changelogs/@backstage/plugin-catalog-backend.md#360))
 
 #### 3.6.0
 
@@ -879,7 +879,7 @@ Changes between 1.49.5 and 1.50.0 — 0 added, 0 removed, 197 upgraded, 10 uncha
 - [`375b546`](https://github.com/backstage/backstage/commit/375b546): Fixed a deadlock in the catalog processing loop that occurred when running multiple replicas. The `getProcessableEntities` method used `SELECT ... FOR UPDATE SKIP LOCKED` to prevent concurrent processors from claiming the same rows, but the call was not wrapped in a transaction, so the row locks were released before the subsequent `UPDATE` executed. This allowed multiple replicas to select and update overlapping rows, causing PostgreSQL deadlock errors (code 40P01).
 - [`79453c0`](https://github.com/backstage/backstage/commit/79453c0): Updated dependency `wait-for-expect` to `^4.0.0`.
 
-### `@backstage/plugin-scaffolder-backend` (3.3.0 → [3.4.0](../../changelogs/@backstage/plugin-scaffolder-backend.md#340))
+### `@backstage/plugin-scaffolder-backend` (3.3.1 → [3.4.0](../../changelogs/@backstage/plugin-scaffolder-backend.md#340))
 
 #### 3.4.0
 
@@ -897,7 +897,7 @@ Changes between 1.49.5 and 1.50.0 — 0 added, 0 removed, 197 upgraded, 10 uncha
 - [`79453c0`](https://github.com/backstage/backstage/commit/79453c0): Updated dependency `wait-for-expect` to `^4.0.0`.
 - [`3ef6078`](https://github.com/backstage/backstage/commit/3ef6078): Added support for conditional `if` filtering on output `links` and `text` items. Items where the `if` condition evaluates to false are now excluded from the task output.
 
-### `@backstage/plugin-scaffolder-common` (2.0.0 → [2.1.0](../../changelogs/@backstage/plugin-scaffolder-common.md#210))
+### `@backstage/plugin-scaffolder-common` (2.0.1 → [2.1.0](../../changelogs/@backstage/plugin-scaffolder-common.md#210))
 
 #### 2.1.0
 

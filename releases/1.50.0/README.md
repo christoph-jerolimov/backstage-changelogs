@@ -1,6 +1,6 @@
 # Backstage Release 1.50.0
 
-## Compared to 1.49.5 (previous minor release)
+## Compared to 1.49.6 (previous minor release)
 
 0 added, 0 removed, 197 upgraded, 10 unchanged.
 
@@ -8,11 +8,11 @@
 
 ### Version bumps
 
-| Package | 1.49.5 | 1.50.0 | Type |
+| Package | 1.49.6 | 1.50.0 | Type |
 | --- | --- | --- | --- |
 | `@backstage/app-defaults` | 1.7.6 | 1.7.7 | Patch |
 | `@backstage/backend-app-api` | 1.6.0 | 1.6.1 | Patch |
-| `@backstage/backend-defaults` | 0.16.0 | 0.17.0 | Minor ⚠️ |
+| `@backstage/backend-defaults` | 0.16.1 | 0.17.0 | Minor ⚠️ |
 | `@backstage/backend-dynamic-feature-service` | 0.8.0 | 0.8.1 | Patch |
 | `@backstage/backend-openapi-utils` | 0.6.7 | 0.6.8 | Patch |
 | `@backstage/backend-plugin-api` | 1.8.0 | 1.9.0 | Minor |
@@ -88,7 +88,7 @@
 | `@backstage/plugin-auth-react` | 0.1.25 | 0.1.26 | Patch |
 | `@backstage/plugin-bitbucket-cloud-common` | 0.3.8 | 0.3.9 | Patch |
 | `@backstage/plugin-catalog` | 2.0.1 | 2.0.2 | Patch |
-| `@backstage/plugin-catalog-backend` | 3.5.0 | 3.6.0 | Minor |
+| `@backstage/plugin-catalog-backend` | 3.5.1 | 3.6.0 | Minor |
 | `@backstage/plugin-catalog-backend-module-aws` | 0.4.21 | 0.4.22 | Patch |
 | `@backstage/plugin-catalog-backend-module-azure` | 0.3.15 | 0.3.16 | Patch |
 | `@backstage/plugin-catalog-backend-module-backstage-openapi` | 0.5.12 | 0.5.13 | Patch |
@@ -160,7 +160,7 @@
 | `@backstage/plugin-proxy-backend` | 0.6.11 | 0.6.12 | Patch |
 | `@backstage/plugin-proxy-node` | 0.1.13 | 0.1.14 | Patch |
 | `@backstage/plugin-scaffolder` | 1.36.1 | 1.36.2 | Patch |
-| `@backstage/plugin-scaffolder-backend` | 3.3.0 | 3.4.0 | Minor |
+| `@backstage/plugin-scaffolder-backend` | 3.3.1 | 3.4.0 | Minor |
 | `@backstage/plugin-scaffolder-backend-module-azure` | 0.2.19 | 0.2.20 | Patch |
 | `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud` | 0.3.4 | 0.3.5 | Patch |
 | `@backstage/plugin-scaffolder-backend-module-bitbucket-server` | 0.2.19 | 0.2.20 | Patch |
@@ -175,7 +175,7 @@
 | `@backstage/plugin-scaffolder-backend-module-rails` | 0.5.19 | 0.5.20 | Patch |
 | `@backstage/plugin-scaffolder-backend-module-sentry` | 0.3.2 | 0.3.3 | Patch |
 | `@backstage/plugin-scaffolder-backend-module-yeoman` | 0.4.20 | 0.4.21 | Patch |
-| `@backstage/plugin-scaffolder-common` | 2.0.0 | 2.1.0 | Minor |
+| `@backstage/plugin-scaffolder-common` | 2.0.1 | 2.1.0 | Minor |
 | `@backstage/plugin-scaffolder-node` | 0.13.1 | 0.13.2 | Patch |
 | `@backstage/plugin-scaffolder-node-test-utils` | 0.3.9 | 0.3.10 | Patch |
 | `@backstage/plugin-scaffolder-react` | 1.20.0 | 1.20.1 | Patch |
