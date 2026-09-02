@@ -1,6 +1,6 @@
 # Package descriptions — all
 
-**324 packages** overall — **211 active** on the `main` branch, **113 removed**. *Last included in* is only set for removed packages.
+**325 packages** overall — **212 active** on the `main` branch, **113 removed**. *Last included in* is only set for removed packages.
 
 | Package | Backstage role | Description | Last included in |
 | --- | --- | --- | --- |
@@ -30,6 +30,7 @@
 | `@backstage/cli-module-maintenance` | cli-module | CLI module for Backstage CLI |  |
 | `@backstage/cli-module-migrate` | cli-module | CLI module for Backstage CLI |  |
 | `@backstage/cli-module-new` | cli-module | CLI module for Backstage CLI |  |
+| `@backstage/cli-module-package-manager-yarn` | cli-module | CLI module for Yarn package manager commands |  |
 | `@backstage/cli-module-test-jest` | cli-module | CLI module for Backstage CLI |  |
 | `@backstage/cli-module-translations` | cli-module | CLI module for Backstage CLI |  |
 | `@backstage/cli-node` | node-library | Node.js library for Backstage CLIs |  |
